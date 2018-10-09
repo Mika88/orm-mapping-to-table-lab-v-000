@@ -1,8 +1,8 @@
 class Student
   attr_accessor :name, :grade
-  def initialize(name, album, id = nil)
+  def initialize(name, grade, id = nil)
     @name = name
-    @album = album
+    @grade = grade
     @id = id
   end
   # DB[:conn]
